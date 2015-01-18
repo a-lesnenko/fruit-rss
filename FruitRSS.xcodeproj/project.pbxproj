@@ -10,11 +10,13 @@
 		A2AAFE8D1A6BCBC1009700DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AAFE8C1A6BCBC1009700DB /* main.m */; };
 		A2AAFE901A6BCBC1009700DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AAFE8F1A6BCBC1009700DB /* AppDelegate.m */; };
 		A2AAFE931A6BCBC1009700DB /* FruitRSS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2AAFE911A6BCBC1009700DB /* FruitRSS.xcdatamodeld */; };
-		A2AAFE961A6BCBC1009700DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AAFE951A6BCBC1009700DB /* ViewController.m */; };
 		A2AAFE991A6BCBC1009700DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AAFE971A6BCBC1009700DB /* Main.storyboard */; };
 		A2AAFE9B1A6BCBC1009700DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AAFE9A1A6BCBC1009700DB /* Images.xcassets */; };
 		A2AAFE9E1A6BCBC1009700DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2AAFE9C1A6BCBC1009700DB /* LaunchScreen.xib */; };
 		A2AAFEAA1A6BCBC1009700DB /* FruitRSSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AAFEA91A6BCBC1009700DB /* FruitRSSTests.m */; };
+		A2AAFEBF1A6C0CEC009700DB /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AAFEBE1A6C0CEC009700DB /* FeedTableViewController.m */; };
+		A2AAFEC21A6C3BAE009700DB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AAFEC11A6C3BAE009700DB /* DetailViewController.m */; };
+		A2AAFEC51A6C4FDC009700DB /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AAFEC41A6C4FDC009700DB /* DetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +36,18 @@
 		A2AAFE8E1A6BCBC1009700DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2AAFE8F1A6BCBC1009700DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A2AAFE921A6BCBC1009700DB /* FruitRSS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitRSS.xcdatamodel; sourceTree = "<group>"; };
-		A2AAFE941A6BCBC1009700DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A2AAFE951A6BCBC1009700DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A2AAFE981A6BCBC1009700DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2AAFE9A1A6BCBC1009700DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A2AAFE9D1A6BCBC1009700DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A2AAFEA31A6BCBC1009700DB /* FruitRSSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitRSSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AAFEA81A6BCBC1009700DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2AAFEA91A6BCBC1009700DB /* FruitRSSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitRSSTests.m; sourceTree = "<group>"; };
+		A2AAFEBD1A6C0CEC009700DB /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		A2AAFEBE1A6C0CEC009700DB /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		A2AAFEC01A6C3BAE009700DB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A2AAFEC11A6C3BAE009700DB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A2AAFEC31A6C4FDC009700DB /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		A2AAFEC41A6C4FDC009700DB /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +91,17 @@
 			children = (
 				A2AAFE8E1A6BCBC1009700DB /* AppDelegate.h */,
 				A2AAFE8F1A6BCBC1009700DB /* AppDelegate.m */,
-				A2AAFE941A6BCBC1009700DB /* ViewController.h */,
-				A2AAFE951A6BCBC1009700DB /* ViewController.m */,
 				A2AAFE971A6BCBC1009700DB /* Main.storyboard */,
 				A2AAFE9A1A6BCBC1009700DB /* Images.xcassets */,
 				A2AAFE9C1A6BCBC1009700DB /* LaunchScreen.xib */,
 				A2AAFE911A6BCBC1009700DB /* FruitRSS.xcdatamodeld */,
 				A2AAFE8A1A6BCBC1009700DB /* Supporting Files */,
+				A2AAFEBD1A6C0CEC009700DB /* FeedTableViewController.h */,
+				A2AAFEBE1A6C0CEC009700DB /* FeedTableViewController.m */,
+				A2AAFEC01A6C3BAE009700DB /* DetailViewController.h */,
+				A2AAFEC11A6C3BAE009700DB /* DetailViewController.m */,
+				A2AAFEC31A6C4FDC009700DB /* DetailTableViewController.h */,
+				A2AAFEC41A6C4FDC009700DB /* DetailTableViewController.m */,
 			);
 			path = FruitRSS;
 			sourceTree = "<group>";
@@ -222,10 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2AAFEC51A6C4FDC009700DB /* DetailTableViewController.m in Sources */,
+				A2AAFEC21A6C3BAE009700DB /* DetailViewController.m in Sources */,
 				A2AAFE901A6BCBC1009700DB /* AppDelegate.m in Sources */,
 				A2AAFE8D1A6BCBC1009700DB /* main.m in Sources */,
-				A2AAFE961A6BCBC1009700DB /* ViewController.m in Sources */,
 				A2AAFE931A6BCBC1009700DB /* FruitRSS.xcdatamodeld in Sources */,
+				A2AAFEBF1A6C0CEC009700DB /* FeedTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				A2AAFEAF1A6BCBC1009700DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2AAFEB01A6BCBC1009700DB /* Build configuration list for PBXNativeTarget "FruitRSSTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				A2AAFEB21A6BCBC1009700DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

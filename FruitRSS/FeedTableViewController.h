@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FeedTableViewController.h
 //  FruitRSS
 //
 //  Created by Alex on 18/01/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FeedTableViewController : UITableViewController <NSXMLParserDelegate>
 
 @end
-
